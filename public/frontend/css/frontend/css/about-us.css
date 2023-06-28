@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+/* title ablout-us */
+.row.title-pages-aboutus{
+    background: url('//f.hubspotusercontent40.net/hub/19948095/hubfs/raw_assets/public/pova/images/background-1.jpg?width=3840&height=2532&name=background-1.jpg') no-repeat center center scroll;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row.title-pages-aboutus .jumbotron{
+    width: 100%;
+    height: 400px;
+    background-color: #3b2b2d;
+    opacity: 0.4;
+}
+.row.title-pages-aboutus .jumbotron .display-4{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #fffbfb;
+}
+/* our team */
+.row.our-team{
+    padding: 100px 80px 100px 80px;
+    background-color: #fef5f7;
+}
+.row.our-team h2{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #3b2b2d;
+}
+.row.our-team .col-md-4 p{
+    color: #6e474d;
+}
+.row.our-team .mumber-profile{
+    background-color: #fffbfb;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 50%;
+}
+.row.our-team .mumber-profile h3{
+    font-family: 'Castoro', serif;
+    color: #3b2b2d;
+    padding: 30px 0px 5px 0px;
+    font-size: 23px;
+}
+.row.our-team .mumber-profile .mumber-office{
+    color: #ee9ca7;
+}
+
+
+.mumber-profile .image-background {
+    position: relative;
+    background-color: #6e474d;
+}
+.mumber-profile .image-background a{
+    font-size: 25px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.mumber-profile .image-background a:hover{
+    color: #ffffff;
+}
+  
+.mumber-profile .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.mumber-profile .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.mumber-profile:hover .image{
+    opacity: 0.3;
+    transform: scale(1.05);
+}
+  
+.mumber-profile:hover .middle {
+    opacity: 1;
+}
+.row.intro-link-youtube{
+    background: url('//f.hubspotusercontent40.net/hub/19948095/hubfs/raw_assets/public/pova/images/background-4.jpg?width=3840&height=2532&name=background-4.jpg') no-repeat center center scroll;
+    background-size: cover;
+    height: 600px;
+}
+.row.intro-link-youtube .jumbotron{
+    background-color: hsl(332deg 50% 14% / 60%);
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.row.intro-link-youtube .lead{
+    color: #ee9ca7;
+    background-color: #fff;
+    padding: 25px 30px 25px 30px;
+}
+.row.intro-link-youtube .jumbotron .lead{
+    opacity: 1;
+}
+.row.intro-link-youtube .lead:hover{
+    background-color: #ee9ca7;
+    color: #fff;
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.row.form-message{
+    padding: 100px 80px 100px 80px;
+}
+.row.form-message label{
+    color: #6e474d;
+}
+.row.form-message .form-control{
+    border-color: #ebcacf;
+}
+.row.form-message .title-form-message{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #3b2b2d;
+}
+.row.form-message .btn-get-started{
+    background: linear-gradient(#ffdde1, #ee9ca7);
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 12px 25px 12px 25px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    margin: 20px;
+    border: 0;
+}
+.row.form-message .btn-get-started:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    transition: 0.8s;
+    position: relative;
+    bottom: -2px;
+}
+.row.form-introduct-contact{
+    padding: 80px;
+}
+.row.form-introduct-contact h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #3b2b2d;
+    padding-bottom: 30px;
+}
+.row.form-introduct-contact .title-intro{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #6e474d;
+    padding-bottom: 30px;
+}
+.row.form-introduct-contact .left label{
+    color: #3b2b2d;
+    font-weight: bold;
+}
+.row.form-introduct-contact .form-group p{
+    color: #6e474d;
+}
+.row.form-introduct-contact .form-group a{
+    color: #ee9ca7;
+    border-bottom: 2px solid #ecc6cb;
+    text-decoration: none;
+}
+.row.form-introduct-contact .form-group a:hover{
+    color: #3b2b2d;
+    border-bottom: 2px solid #ee9ca7;
+}
+.row.form-introduct-contact .form-group{
+    margin: 0;
+}
+
+
+.row.form-introduct-contact label{
+    color: #6e474d;
+}
+.row.form-introduct-contact .form-control{
+    border-color: #ebcacf;
+}
+.row.form-introduct-contact .btn-get-started{
+    background: linear-gradient(#ffdde1, #ee9ca7);
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 12px 25px 12px 25px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    margin: 20px;
+    border: 0;
+}
+.row.form-introduct-contact .btn-get-started:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
+    transition: 0.8s;
+    position: relative;
+    bottom: -2px;
+}
+
+.row.blog-list{
+    padding: 50px 30px 50px 30px;
+    background-color: #fcfbfa;
+}
+.row.blog-list .image{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
+.row.blog-list .col-card{
+    padding: 20px 20px 40px 20px;
+}
+.row.blog-list .card{
+    width: 350px;
+}
+.row.blog-list .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.row.blog-list .card:hover .card-img-top{
+    transform: scale(1.01);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.row.blog-list .card-img-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 300px;
+}
+
+.row.blog-list .field{
+    color: #ee9ca7;
+    text-decoration: none;
+}
+.row.blog-list .field:hover{
+    color: #3b2b2d;
+}
+.row.blog-list .card-title{
+    color: #3b2b2d;
+    padding: 10px 0px 15px 0px;
+    height: 70px;
+
+}
+.row.blog-list .card-title:hover{
+    color: #ee9ca7;
+}
+.row.blog-list a:hover{
+    text-decoration: none;
+}
+.row.blog-list .card-text{
+    color: #6e474d;
+}
+.row.blog-list .name-tg{
+    color: #6e474d;
+}
+.row.blog-list .datetime{
+    color: #6e474d;
+}
+.row.blog-list .card-body{
+    padding: 20px 30px 20px 30px;
+}
+
+/* navigation */
+.pagination{
+    padding-bottom: 50px;
+}
+.pagination .page-item.active .page-link{
+    background-color: #ee9ca7;
+}
+.pagination .page-item{
+    font-weight: bold;
+    padding: 5px;
+}
+.pagination .page-link{
+    border-radius: 5px;
+    background-color: #fff0f2;
+    color: #3b2b2d;
+    padding: 10px 14px 10px 14px;
+    border: 0;
+}
+.pagination .page-link:hover{
+    color: #fcfbfa;
+    background-color: #3b2b2d;
+    transition: 0.4s;
+}
+
+/* details */
+.row.title-pages-details{
+    background: url('https://f.hubspotusercontent40.net/hub/19948095/hubfs/post-2-3.jpg?width=3840&name=post-2-3.jpg') no-repeat center center scroll;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.row.title-pages-details .jumbotron{
+    width: 100%;
+    height: 500px;
+    background-color: #360c11;
+    opacity: 0.6;
+}
+.row.title-pages-details .jumbotron .display-4{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 35px;
+}
+.row.title-pages-details .jumbotron p{
+    color: #fcfbfa;
+}
+.row.title-pages-details .jumbotron a{
+    color: #fcfbfa;
+    padding-right: 30px;
+}
+.row.title-pages-details .jumbotron .datetime{
+    padding-right: 30px;
+}
+/* introduce yourself */
+.intro-yourself{
+    padding: 100px 0px 50px 0px;
+}
+.intro-yourself img{
+    width: 150px;
+    height: 150px;
+}
+.intro-yourself .ground{
+    background-color: #f8f6f7;
+    width:60%;
+    padding: 50px;
+    border-radius: 10px;
+}
+.intro-yourself h5{
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 20px 0 20px 0;
+    color: #3b2b2d;
+}
+.intro-yourself p{
+    color: #6e474d;
+    text-align: center;
+}
+.intro-yourself a{
+    padding: 5px;
+}
+.intro-yourself i{
+    padding: 10px;
+    background-color: #360c11;
+    border-radius: 35px;
+    color: #fcfbfa;
+    font-size: 20px;
+}
+.intro-yourself i:hover{
+    background-color: #ee9ca7;
+    transition: 0.5s;
+}
+.form-message.details-blog .comment{
+    color: #3b2b2d;
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+}
+.form-message.details-blog{
+    padding: 0 20% 0 20%;
+}
+.row.blog-list h2{
+    color: #3b2b2d;
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.content-blog{
+    padding: 100px 80px 10px 80px;
+    color: #6e474d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 130%;
+}
+.content-blog a{
+    color: #ee9ca7;
+}
+
+/* ----------------btn comment ------------------ */
+.details-comments .btn-comment{
+    width: 70%;
+    height: 70px;
+    background-color: #360c11;
+    border-radius: 35px;
+    border: 0;
+    color: #dddddd;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.details-comments .btn-comment:hover{
+    box-shadow: none;
+    transition: 1s;
+    position: relative;
+    top:2px;
+}
+.details-comments .list-comment{
+    padding-top: 50px;
+}
+.details-comments .media.container{
+    padding: 0 30px 50px 30px;
+}
+.details-comments .image-comment{
+    width: 60px;
+    height: 60px;
+}
+.details-comments{
+    padding: 50px 0 100px 0;
+}
+
+/* ---------------------------- */
+
+@media (max-width: 1200px){
+    .row.our-team{
+        padding: 100px 50px 100px 50px;
+    }
+    .row.our-team .mumber-profile{
+        width: 100%;
+    }
+    .row.our-team .mumber-profile{
+        margin: 20px;
+    }
+    .row.blog-list{
+        padding: 85px 0px 60px 0px;
+    }
+    .row.blog-list .card{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 992px){
+    .row.form-introduct-contact{
+        padding: 100px 20px 100px 20px;
+    }
+    .intro-yourself .ground {
+        padding: 30px;
+        width: 80%;
+    }
+    .form-message.details-blog{
+        padding: 0 15% 0 15%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .row.blog-list{
+        padding: 85px 80px 60px 80px;
+    }
+    .row.title-pages-details .jumbotron a{
+        padding-right: 20px;
+    }
+    .row.title-pages-details .jumbotron .datetime{
+        padding-right: 20px;
+    }
+    .intro-yourself img{
+        width: 100px;
+        height: 100px;
+    }
+    .form-message.details-blog{
+        padding: 0 10% 0 10%;
+    }
+}
+@media screen and (max-width:576px) {
+    .row.our-team .mumber-profile{
+        margin: 30px 50px 0px 50px;
+    }
+    .row.blog-list{
+        padding: 85px 0px 60px 0px;
+    }
+    .intro-yourself img{
+        width: 80px;
+        height: 80px;
+    }
+    .intro-yourself .ground {
+        padding: 30px;
+        width: 90%;
+    }
+}

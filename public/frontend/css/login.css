@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+
+.card2 {
+    margin: 0px 40px
+}
+
+
+.image {
+    width: 80%;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.border-line {
+    border-right: 1px solid #ebcacf
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.google {
+    background-color: rgb(230, 230, 230);
+    color: rgb(219, 86, 86);
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #ebcacf;
+    margin-top: 10px
+}
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+    background: linear-gradient(#ffdde1, #ee9ca7);
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 12px 50px 12px 50px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+    margin: 20px;
+    border: 0;
+}
+.btn-blue:hover {
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+    transition: 0.5s;
+}
+
+.btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #1A237E
+}
+.card2 h6{
+    color: #3b2b2d;
+}
+label{
+    color: #3b2b2d;
+}
+h1{
+    color: #3b2b2d;
+    font-family: 'Marmelad', sans-serif;
+}
+.card2 input{
+    border: 1px solid#ebcacf;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 300px;
+        height: 220px;
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
